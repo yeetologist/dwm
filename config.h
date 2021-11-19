@@ -218,7 +218,7 @@ static Key keys[] = {
 	{ MODKEY,				XK_F3,	    	spawn,		SHCMD("displayselect") },
 	{ MODKEY,				XK_F4,	    	spawn,		SHCMD(TERMINAL " -e pulsemixer; kill -44 $(pidof dwmblocks)") },
 	/* { MODKEY,				XK_F5,		xrdb,		{.v = NULL } }, */
-	{ MODKEY,				XK_F6,	    	spawn,		SHCMD("torwrap") },
+	{ MODKEY,				XK_F6,	    	spawn,		SHCMD("transmission-qt") },
 	{ MODKEY,				XK_F7,	    	spawn,		SHCMD("td-toggle") },
 	{ MODKEY,				XK_F8,	    	spawn,		SHCMD("mw -Y") },
 	{ MODKEY,				XK_F9,	    	spawn,		SHCMD("dmenumount") },
@@ -228,7 +228,7 @@ static Key keys[] = {
 	{ MODKEY,				XK_space,   	zoom,		{0} },
 	{ MODKEY|ShiftMask,	XK_space,	togglefloating,	{0} },
 
-	{ 0,				    XK_Print,   	spawn,		SHCMD("maim -um '10' ~/Downloads/Pictures/Screenshot-full-$(date '+%y%m%d-%H%M-%S').png") },
+	{ 0,				    XK_Print,   	spawn,		SHCMD("maim -um '10' ~/dl/Pictures/Screenshot-full-$(date '+%y%m%d-%H%M-%S').png") },
 	{ ShiftMask,	  XK_Print,   	spawn,		SHCMD("maimpick") },
 	{ MODKEY,				XK_Print,   	spawn,		SHCMD("dmenurecord") },
 	{ MODKEY|ShiftMask,XK_Print, 	spawn,	  SHCMD("dmenurecord kill") },
