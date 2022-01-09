@@ -143,8 +143,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,	XK_w,		    spawn,		SHCMD(TERMINAL " -e nmtui-connect") },
 	{ MODKEY,   				XK_e,   		spawn,		SHCMD(TERMINAL " -e nnn -Hdexr") },
 	{ MODKEY|ShiftMask,	XK_e,		    spawn,		SHCMD("android-file-transfer") },
-	{ MODKEY,   				XK_r,	    	spawn,		SHCMD("pcmanfm") },
-	{ MODKEY|ShiftMask,	XK_r,		    spawn,		SHCMD("transmission-qt") },
+	{ MODKEY,   				XK_r,	    	spawn,		SHCMD("transmission-qt") },
+	{ MODKEY|ShiftMask,	XK_r,		    spawn,		SHCMD("pcmanfm") },
 	{ MODKEY,   				XK_t,   		setlayout,	{.v = &layouts[5]} }, /* tile */
 	{ MODKEY|ShiftMask,	XK_t,	    	setlayout,	{.v = &layouts[1]} }, /* bstack */
 	{ MODKEY,   				XK_y,		    setlayout,	{.v = &layouts[2]} }, /* spiral */
